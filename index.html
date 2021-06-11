@@ -1,3 +1,9 @@
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Padauk:wght@400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
 <!DOCTYPE html>
 <html>
     <head>
@@ -10,9 +16,13 @@
         <style>
                h1 { padding-top: 200px;
                padding-bottom: 45px;
-            font: Paduak;
+            font-family: 'Padauk', sans-serif;
             font-size: 85px; }
-    h2 { font-size: 35px;
+    h2 { font-size: 45px;
+   font-family: 'Caveat Brush', cursive;
+    }
+
+     
     }
     .form-control-range { 
       width: 400px;
@@ -21,6 +31,9 @@
             .container {
               background-color: #d7b8f3;
               padding: 18px;
+        
+            }
+            h4 { font-size: 18px;
             }
         </style>
 
@@ -55,9 +68,10 @@
 <center><h1>Mental Heath Awareness </h1> </center>
 <center> <h5> How are you doing today, emotionally? physically? (worst to awesome)</h5></center>
      <form>
-  <div class="form-group">
+  <h7></h7><div class="form-group">
     <label for="formControlRange"></label>
    <center> <input type="range" class="form-control-range" id="formControlRange"></center>
+   </h7>
   </div>
 </form>
 
@@ -67,12 +81,13 @@
 <div class="spinner-grow spinner-grow-sm" role="status">
   <span class="visually-hidden">Loading...</span>
 </div></center> 
-<center><img src= "letstalkaboutmentalhealth.png"></center>
+<center><img src="letstalkaboutmentalhealth.png" class="rounded-3" alt="..."></center>
 
 <div id= "sectionwhat" class= container> 
 
 <center><h2>What Is Mental Health?</h2></center>
-Mental Health is something that includes our emotions, psychology and 
+
+  Mental Health is something that includes our emotions, psychology and 
 our social wealth. It is different for everyone, it affects how we 
 think, act and feel, therefore can change how we handle our
 stress and choices. It's not a easy topic to discuss or bring up about,
@@ -94,53 +109,91 @@ feeling numb or pain, loosing interest or relationships with anything.
 
 <div id= "distress" class= container> 
 <center> <h2>Being Okay</h2></center>
+<div class="clearfix">
+  <img src= "all5.png" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
 Everyone IS different, and you are not alone. 
 Its okay to feel stressed or exhuasted, do not let one thing takeaway 
 your whole day! And even so, one bad day does not mean all is over. 
 Taking care of yourself should be #1.
-Reduce your screen time a little bit, staying away from media is actually
+  <p>
+  Reduce your screen time a little bit, staying away from media is actually
 good for your health. Take some time to find a hobby! Drawing, Baking, Cooking,
 Do what YOU love. 
+  </p>
+
 Eat well, don't rely on sugar too much either. Sticking to a good healthy diet
 can help you have a happier outlook, improve ability to focus and sets yourself
 up as well!
+  <p>
 Exercise, as much as you might hate it, go for a walk or a run. It reduces your 
 negative mood and improves self esteem. Real studies have shown exercising reduces
 the risk of developing mental illness.
+  </p>
+
 Talk to someone! You never know, you may feel relief after you let it all out.
 Lastly, it is absolutely okay to take a break. Taking care of yourself is 
 self care. We can come back with new experiences, more producitivty, motivation,
 and creativeness. 
+  <p>
+
+  </p>
 </div>
 
-<center><img src= "all5.png"></center>
+
+
+
+
+<center></center>
 <div id= "apps" class= container> 
 <center><h2>Here are some cool apps you can check out</h2> </center>
-Apps to calm you:
-- Calm
-- Colorfy
-- Shine 
-Apps to help you with your homework:
-- Quizlet 
-- Khan Academy 
-- StudyBlue 
-Apps to help you keep organized 
-- Evernote 
-- iTrackMyTime
-Download some fitness apps!
-- Fitness 
-- 7 minute workout 
-- Nike Training club 
-Stay motivated! 
-- Motivation 
-- Think Up 
-- Fabulous 
-- I am Sober 
-- My Wonderful Day Journal 
+
+<div class="container">
+  <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+    <div class="col">
+      <div class="p-3 border bg-light">
+  Apps To Help Calm You:
+      <p>- Calm </p>
+<p>- Colorfy</p>
+<p>- Shine</p> </div>
+
+    </div>
+    <div class="col">
+      <div class="p-3 border bg-light">
+ Apps For Homework Help :
+
+<p>- Quizlet </p>
+<p>- Khan Academy </p>
+<p>- StudyBlue</p> </div>
+    </div>
+    <div class="col">
+      <div class="p-3 border bg-light">
+        Apps To Help You Keep Organized:
+<p>- Evernote </p>
+<p>- iTrackMyTime</p>
+<p>BrightNest</p></div>
+    </div>
+    <div class="col">
+      <div class="p-3 border bg-light">
+        Download some fitness apps!
+<p>- Fitness </p>
+<p>- 7minuteWorkout </p>
+<p>- NikeTrainingClub </p> </div>
+    </div>
+    <div class="col">
+      <div class="p-3 border bg-light">
+        Stay motivated! You got this: 
+<p>- Motivation </p>
+<p>- Think Up </p>
+<p>- Fabulous </p>
+</div>
+    </div>
+   
+  
+    </div>
+  </div>
 </div>
 
-
-<center><img src= "meditate"></center>
+<center><img src= "meditate" class="rounded-pill" alt="..."></center>
 
 
 <div id= "me" class= container> 
